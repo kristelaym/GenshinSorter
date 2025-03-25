@@ -9,7 +9,7 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyB2Ut2mmC8Qn8W6UCE5jW_fH8nDtmyJXq4",
+  apiKey: "//",
   authDomain: "genshin-sorter.firebaseapp.com",
   projectId: "genshin-sorter",
   storageBucket: "genshin-sorter.appspot.com",
