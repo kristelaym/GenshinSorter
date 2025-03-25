@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair Display');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #ffffff;
+}
+
+.home{
+  background-color: #202452;
+}
+
+.about{
+  background-color: #202452;
+}
+
+.content{
+  background-color: #202452;
+}
+
+.home video {
+  height: 95%;
+  width: 95%;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+  
+}
+.logo{
+  max-width: 75%;
+  height: auto;
+  position: absolute;
+  right:-25%;
+  top: 30%;
+  
+  transform: translate(-50%, -50%);
+  background: transparent;
+  
+
+
+}
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+
+}
+.character-images{
+  background-color: #A7C7E7;
+  height: 50px;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.25em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transform: translate(0, 0);
+  color: #ffffff;
+  left: 28%;
+
+}
+
+.character-name{
+ position: relative;
+  top: 30%;
+  left: 40%;
+  background: transparent;
+}
+
+.character-images:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  right: 10px;
+  
+}
+
+@media (min-width: 768px) {
+  .acharacter-images {
+    padding: 0.25em 0.25em;
+  }
+}
+
+
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  right: 2.7%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 92%;
+  max-width: 92%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  background-color:transparent;
+}
+.navbar .links {
+  margin-left: auto;
+  background-color:transparent;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  background-color:transparent;
+  color: #2bb6d8;
+}
+.navbar a:hover {
+  color: #0781d2;
+}
+
+.navbar img{
+  background-color:transparent;
+    
+}
+
+.Redirect {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transform: translate(0, 0);
+  background: transparent;
+  
+  
+}
+
+.Redirect:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+.BackToTop{
+  position:sticky;
+  bottom: 0;
+  right: 0;
+  color: #202452
+}
+
+@media (min-width: 768px) {
+  .about button {
+    padding: 0.25em 0.75em;
+  }
+}
+
+.about p {
+  max-width: 90%;
+  margin: 0 auto;
+  text-indent: 50px;
+  font-size: 22px;
+  font-family: "Playfair Display";
+  padding: 15px;
+}
+
+.about h1 {
+  max-width: 90%;
+  margin: 0 auto;
+  text-indent: 50px;
+  font-size: 55px;
+  font-family: "Playfair Display";
+  border-bottom: 1px solid #f2f2f2;
+  padding: 20px;
+}
+
+.about h2 {
+  max-width: 90%;
+  margin: 0 auto;
+  text-indent: 50px;
+  font-size: 45px;
+  font-family: "Playfair Display";
+  border-bottom: 1px solid #f2f2f2;
+  padding: 20px;
+}
+
+.about h3 {
+  max-width: 90%;
+  margin: 0 auto;
+  text-indent: 50px;
+  font-size:35px;
+  padding: 20px;
+}
+
+.about h4 {
+  max-width: 90%;
+  margin: 0 auto;
+  text-indent: 50px;
+  font-size:25px;
+  padding: 20px;
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+}
+
+.centered h3{
+  font-family:"Comfortaa";
+  background: transparent;
+  font-size: 60px;
+  padding: 2px;
+  color: #c67467;
+  text-indent: -30px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+}
+
+.centered div{
+  background: transparent;
+}
+
+.Paimon{
+  max-width: 25%;
+  height: auto;
+  position: absolute;
+  right:15%;
+  top: 56%;
+  
+  transform: translate(-50%, -50%);
+  background: transparent;
+}
+
+.bg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.hoyomix{
+  position: absolute;
+  bottom: bottom;
+  left: 30%;
+  padding: 30px;
+  background: transparent;
+}
+
+.character-list{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  padding: 50px;
+  border: groove;
+  box-shadow: 10px 10px 10px 10px #454863;
+  background-color: #2a2d50;
+}
+
+.box{
+  top: 40%;
+  left: 16%;
+}
+
+
+.ElementButton{
+  transform: translate(-55%, 0); 
+  margin-left: 10px;
+  margin-right: 10px;
+  background: transparent;
+  position: relative;
+  top: -8%;
+  left: 6%;
+  border: none;
+}
+
+.WeaponButton{
+  transform: translate(-55%, 0); 
+  margin-left: 10px;
+  margin-right: 10px;
+  background: transparent;
+  position: relative;
+  top: -8%;
+  left: 21%;
+  border: none;
+}
+
+
+.ElementImage{
+  height: 50px;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transform: translate(0, 0);
+  background: transparent;
+  
+  
+
+}
+
+.title{
+  position: relative;
+  top: -13%;
+  left: 76%;
+  transform: translate(-50%, 0);
+  background: transparent;
+  font-family: "Playfair Display";
+  font-size: 250%;
+}
+
+.character-preview a{
+  text-decoration: none;
+}
+
+.ShowAll{
+  position: relative;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+}
+
+.login button{
+  margin-left: 280px;
+  text-decoration: none;
+  padding: 3px;
+  background-color:transparent;
+  color: #2bb6d8;
+  top: 0%;
+  left: 49.7%;
+  transform: translate(-50%, -50%);
+
+  
+}
+.login button:hover {
+  color: #0781d2;
+}
+
+.login{
+  text-decoration: none;
+  padding: 3px;
+  background-color:transparent;
+  color: #2bb6d8;
+}
+
+.GoogleButton{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+}
+
+.signintitle{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+}
+
+.logoutbutton{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+}
+
+.UserGreeting{
+  font-family: "Quicksand";
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+}
+
+.characterImage{
+  position:absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+}
+
+.rarityImage{
+  position:absolute;
+  top: 60%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+}
+
+.characterName{
+  position:absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  font-size: 500%;
+}
+
+.characterAttributes{
+  position:absolute;
+  top: 60%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  font-size: 200%;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.characterAbout{
+  position:absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  font-size: 150%;
+  text-indent: 50px;
+}
+
+.characterCheckbox{
+  position:absolute;
+  top: 70%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  font-size: 150%;
+}
+
+
